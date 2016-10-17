@@ -11,30 +11,29 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2" style="background:#fff7d5;">
-        <div class="col-md-2">
-            <h1>Logo</h1>
-        </div>
-        <div class="col-md-2 col-md-offset-8">
-            <h2>Menu</h2>
+        <div class="col-md-8 col-md-offset-2" >
+            <div class="header" style="background:#ffeadf;">
+                <h1>Logo</h1>
+            </div>
         </div>
     </div>
 </div>
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h2>Add Book List with author</h2>
-            <form action="" method="">
+            <h2>Edit Profile Picture with name</h2>
+            <form action="" method="" enctype="multipart/form-data">
                 <div class="form-group">
-                    <label for="title">Book Title:</label>
-                    <input type="text" class="form-control" id="book_title" placeholder="Enter Book Title">
+                    <label for="title">Name :</label>
+                    <input type="text" class="form-control" id="book_title" placeholder="Enter Your Name">
                 </div>
                 <div class="form-group">
-                    <label for="author">Author:</label>
-                    <input type="text" class="form-control" id="author" placeholder="Enter Author Name">
-                </div>
+                    <label for="author">Select your profile picture:</label>
+                    <input type="file" id="file" placeholder="Enter Your Name">                </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-info">Edit</button>
+                <button type="submit" class="btn btn-danger">Delete</button>
             </form>
         </div>
     </div>

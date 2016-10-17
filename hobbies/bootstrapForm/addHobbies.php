@@ -11,27 +11,27 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2" style="background:#fff7d5;">
-        <div class="col-md-2">
-            <h1>Logo</h1>
-        </div>
-        <div class="col-md-2 col-md-offset-8">
-            <h2>Menu</h2>
+        <div class="col-md-8 col-md-offset-2" >
+            <div class="header" style="background:#ffeadf;">
+                <h1>Logo</h1>
+            </div>
         </div>
     </div>
 </div>
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h2>Add Book List with author</h2>
+            <h2>Add hobbies with name</h2>
             <form action="" method="">
                 <div class="form-group">
-                    <label for="title">Book Title:</label>
-                    <input type="text" class="form-control" id="book_title" placeholder="Enter Book Title">
+                    <label for="title">Name :</label>
+                    <input type="text" class="form-control" id="book_title" placeholder="Enter Your Name">
                 </div>
                 <div class="form-group">
-                    <label for="author">Author:</label>
-                    <input type="text" class="form-control" id="author" placeholder="Enter Author Name">
+                    <label for="author">Select your hobbies:</label>
+                    <label class="checkbox-inline"><input type="checkbox" value="">Playing Cricket</label>
+                    <label class="checkbox-inline"><input type="checkbox" value="">Gardening</label>
+                    <label class="checkbox-inline"><input type="checkbox" value="">Fishing</label>
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
