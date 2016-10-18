@@ -110,7 +110,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="text-center">
-                        &copy; all rights reserved by <a href="#">BITM</a>
+                        &copy; All rights reserved by <a href="#">BITM</a>
                     </div>
                 </div>
             </div>
